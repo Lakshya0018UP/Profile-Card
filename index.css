@@ -1,0 +1,67 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    background-color: #282541;
+}
+
+.content{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+
+
+.profile-card{
+    background-color: whitesmoke;
+    height: 400px;
+    width:700px;
+    border-radius: 24px;
+    border:2px black solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+
+}
+
+
+
+.img-sec{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    border-radius: 50%;
+    background-image: url(Lakshya.jpg);
+    background-size: contain;
+    margin-left:10px;
+    border:2px blue solid;
+    
+}
+
+.name{
+    text-align: center;
+    font-size:20px;
+    font-weight: 700;
+}
+
+.job{
+    font-weight: 300;
+    font-size: 15px;
+
+}
+a i{
+    font-size:30px;
+    text-decoration:none;
+}
+
+
